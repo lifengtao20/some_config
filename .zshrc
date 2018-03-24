@@ -157,3 +157,6 @@ alias gbk-ssh='luit -encoding gbk ssh'
 #}  
 #PS1=$'$C_L_BLUE%(1j.[$myjobs]% $C_OFF
 #.$C_OFF)%m.%B%n%b$C_OFF$C_L_RED%#$C_OFF'  
+
+alias wlysync='/usr/bin/rsync -rauvz --delete --include-from="/home/lifengtao/.kf_rsync_rules.txt" kf:~/dev/wly/ /data/source/wly'
+alias wlysyncr='/usr/bin/rsync -rauvz --include-from="/home/lifengtao/.kf_rsync_rules.txt" kf:~/dev/wly/ /data/source/wly'
