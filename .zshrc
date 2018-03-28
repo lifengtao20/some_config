@@ -159,7 +159,7 @@ alias gbk-ssh='luit -encoding gbk ssh'
 #.$C_OFF)%m.%B%n%b$C_OFF$C_L_RED%#$C_OFF'  
 
 alias wlysync='/usr/bin/rsync -rauvz --delete --include-from="/home/lifengtao/.kf_rsync_rules.txt" kf:~/dev/wly/ /data/source/wly'
-alias wlysyncr='/usr/bin/rsync -rauvz --include-from="/home/lifengtao/.kf_rsync_rules.txt" /data/source/wly kf:~/dev/wly/'
+alias wlysyncr='/usr/bin/rsync -rauvz --include-from="/home/lifengtao/.kf_rsync_rules.txt" /data/source/wly kf:~/dev/'
 alias mylogin='python ~/bin/ssh/my_login.py'
 alias osscmd="python $HOME/bin/oss/osscmd"
 alias ossupload="python $HOME/bin/oss/oss_builder.py -e cm8 -t upload"
